@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="deber.MainPage">
+    <ScrollView >
+        <StackLayout 
+        >
+            <StackLayout>
+                <Frame BackgroundColor="Gray" Padding="24" CornerRadius="0">
+                    <Label Text="Hoja de vida" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                </Frame>
+                <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+                    <Image Source="https://avatars.githubusercontent.com/u/66538886?v=4"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   >
+
+                    </Image>
+                </Frame>
+                <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            >
+
+                    <StackLayout
+                Orientation="Horizontal"
+               VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+                        <Label Text="David Cacuango" FontSize="Title" />
+
+                    </StackLayout>
+
+                    <Button 
+                        Clicked="btnShowPageDa"
+                        Text="Mostrar"
+                        x:Name="btnNext"
+            >
+
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+               
+                <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+                    <Image Source="https://avatars.githubusercontent.com/u/58041267?v=4"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   >
+
+                    </Image>
+                </Frame>
+                <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            >
+
+                    <StackLayout
+                Orientation="Horizontal"
+               VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+                        <Label Text="Diana Almeida" FontSize="Title" />
+
+                    </StackLayout>
+
+                    <Button 
+                       Text="Mostrar"
+                       Clicked="btnShowPageDi"
+                       x:Name="btnNext1"
+            >
+
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+             
+                <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+                    <Image Source="https://avatars.githubusercontent.com/u/66704761?v=4"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   >
+
+                    </Image>
+                </Frame>
+                <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            >
+
+                    <StackLayout
+                Orientation="Horizontal"
+               VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+                        <Label Text="Bryan Quisaguano" FontSize="Title" />
+
+                    </StackLayout>
+
+                    <Button 
+                       Text="Mostrar"
+                       Clicked="btnShowPageBr"
+                       x:Name="btnNextb"
+            >
+
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+   
+        
+
+</ContentPage>
